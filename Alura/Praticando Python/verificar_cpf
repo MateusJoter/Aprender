@@ -1,0 +1,14 @@
+def verifica_tamanho_cpf(cpf):
+    if len(str(cpf)) == 11:
+        return True
+    else:
+        return False
+    
+try:
+    cpf = int(input("Digite o seu CPF: "))
+    if verifica_tamanho_cpf(cpf):
+        print("CPF válido")
+    else:
+        print("Erro: O CPF deve ter exatamente 11 dígitos.")
+except:
+    print("Erro: O CPF deve conter apenas números.")
