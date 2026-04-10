@@ -1,0 +1,21 @@
+Identifique a necessidade de compartilhar aplicações globalmente;
+Compare o teste local com a distribuição via internet;
+Analise a infraestrutura global composta por dispositivos e conexões;
+Entenda o fluxo de requisição entre navegador e servidor;
+Reconheça o papel do cliente HTTP na comunicação;
+Compreenda a importância dos protocolos para padronizar a comunicação;
+Diferencie redes locais (LAN), regionais (WAN) e globais (Internet);
+Utilize exemplos como LAN houses para ilustrar redes locais;
+Explore a analogia entre redes e sistemas de telefonia para WAN;
+Avalie a abrangência geográfica e o acesso público versus privado;
+Considere aspectos de velocidade, latência e custo de cada rede;
+Identifique as camadas do protocolo TCP/IP;
+Reconheça a camada de aplicação e o uso do HTTP/HTTPS;
+Explore a camada de transporte com os protocolos TCP e UDP;
+Realize testes práticos com Telnet para visualizar conexões TCP;
+Utilize o CURL para monitorar requisições HTTP;
+Diferencie a entrega ordenada do TCP da transmissão assíncrona do UDP;
+Associe o TCP à integridade na entrega de páginas web;
+Compreenda o endereçamento IP como um identificador único, similar a um CEP;
+Investigue a resolução de nomes via DNS e sua relação com URLs;
+Teste a resolução de DNS com comandos como ping.
