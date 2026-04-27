@@ -1,21 +1,75 @@
-Identifique a necessidade de compartilhar aplicações globalmente;
+Identifique a necessidade de compartilhar aplicações globalmente
+    As necessidades são várias, desde disponibilizar um site para o mundo, até compartilhar arquivos e dados entre pessoas e organizações.
+
 Compare o teste local com a distribuição via internet;
+    O teste local é feito em uma rede privada, onde os dispositivos estão conectados diretamente uns aos outros.
+    A distribuição via internet é feita em uma rede pública, onde os dispositivos estão conectados uns aos outros através da internet.
+
 Analise a infraestrutura global composta por dispositivos e conexões;
+    A infraestrutura global é composta por dispositivos e conexões que permitem a comunicação entre computadores em todo o mundo.
+    Os dispositivos incluem computadores, servidores, roteadores, switches, modems, etc.
+    As conexões incluem cabos, fibra óptica, satélites, etc.
+
 Entenda o fluxo de requisição entre navegador e servidor;
+    O fluxo de requisição entre navegador e servidor é o seguinte:
+    1. O navegador envia uma requisição para o servidor.
+    2. O servidor recebe a requisição e a processa.
+    3. O servidor envia uma resposta para o navegador.
+    4. O navegador recebe a resposta e a exibe para o usuário.
+
 Reconheça o papel do cliente HTTP na comunicação;
+    O cliente HTTP é o navegador que envia requisições para o servidor.
+    O servidor HTTP é o servidor que recebe requisições do navegador e envia respostas.
+
 Compreenda a importância dos protocolos para padronizar a comunicação;
+    Os protocolos são importantes para padronizar a comunicação entre computadores em todo o mundo.
+    Sem os protocolos, os computadores não conseguiriam se comunicar uns com os outros.
+
 Diferencie redes locais (LAN), regionais (WAN) e globais (Internet);
+    Redes locais (LAN) são redes que cobrem uma área geográfica pequena, como uma casa, um escritório ou uma escola.
+    Redes regionais (WAN) são redes que cobrem uma área geográfica maior, como uma cidade ou um estado.
+    Redes globais (Internet) são redes que cobrem uma área geográfica muito grande, como o mundo todo.
+
 Utilize exemplos como LAN houses para ilustrar redes locais;
+    As LAN houses são exemplos de redes locais onde várias pessoas podem se conectar à internet ao mesmo tempo.
+
 Explore a analogia entre redes e sistemas de telefonia para WAN;
+    As redes WAN são como sistemas de telefonia, onde os computadores estão conectados uns aos outros através de cabos, fibra óptica, satélites, etc.
+
 Avalie a abrangência geográfica e o acesso público versus privado;
-Considere aspectos de velocidade, latência e custo de cada rede;
+    A abrangência geográfica das redes varia de acordo com o tipo de rede.
+    O acesso público é quando qualquer pessoa pode se conectar à rede.
+    O acesso privado é quando apenas pessoas autorizadas podem se conectar à rede.
+
 Identifique as camadas do protocolo TCP/IP;
+    As camadas do protocolo TCP/IP são:
+    1. Camada de aplicação
+    2. Camada de transporte
+    3. Camada de rede
+    4. Camada de enlace
+    5. Camada física
+
 Reconheça a camada de aplicação e o uso do HTTP/HTTPS;
+    A camada de aplicação é a camada que lida com a comunicação entre os aplicativos.
+    O HTTP/HTTPS é um protocolo da camada de aplicação que lida com a comunicação entre os navegadores e os servidores.
+
 Explore a camada de transporte com os protocolos TCP e UDP;
-Realize testes práticos com Telnet para visualizar conexões TCP;
-Utilize o CURL para monitorar requisições HTTP;
+    A camada de transporte é a camada que lida com a comunicação entre os aplicativos.
+    O TCP e o UDP são protocolos da camada de transporte que lidam com a comunicação entre os aplicativos.
+    O TCP é um protocolo orientado à conexão, que garante a entrega ordenada dos dados.
+    O UDP é um protocolo não orientado à conexão, que não garante a entrega ordenada dos dados, mas sua entrega indiscriminada.
+
 Diferencie a entrega ordenada do TCP da transmissão assíncrona do UDP;
+    A entrega ordenada do TCP garante que os dados sejam entregues na ordem em que foram enviados.
+    A transmissão assíncrona do UDP não garante a entrega ordenada dos dados, mas sua entrega indiscriminada.
+
 Associe o TCP à integridade na entrega de páginas web;
+    O TCP é associado à integridade na entrega de páginas web porque garante que os dados sejam entregues na ordem em que foram enviados.
+
 Compreenda o endereçamento IP como um identificador único, similar a um CEP;
+    O endereçamento IP é um identificador único que identifica cada dispositivo na rede.
+    É similar a um CEP, que identifica cada casa em uma rua.
+
 Investigue a resolução de nomes via DNS e sua relação com URLs;
-Teste a resolução de DNS com comandos como ping.
+    A resolução de nomes via DNS é o processo de conversão de um nome de domínio em um endereço IP.
+    É a relação entre o nome de um site e o endereço IP do servidor que hospeda o site.
